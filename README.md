@@ -1,6 +1,6 @@
 # Temperature Control
 
-Temperature Control is an SCADA Open Source application to monitor and control a temperature control system.
+This software is an SCADA Open Source application to monitor and control a temperature control system.
 
 ## Table of contents 
 
