@@ -73,8 +73,11 @@ void Furnace::updateOutputs(){
         }
     }else{
         histereseStatus = 0; 
-    }        
-    digitalWrite(PIN_RESISTENCE, resistenceStatus && !fail);
+    }   
+    if(fail){
+        resistenceStatus = false;
+    }     
+    digitalWrite(PIN_RESISTENCE, resistenceStatus);
 }
 
 /**

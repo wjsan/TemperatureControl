@@ -14,9 +14,9 @@
 
 #include <Arduino.h>
 
-#define PIN_RESISTENCE 2
-#define PIN_FAIL 3
-#define PIN_TEMP_SENS A0
+#define PIN_RESISTENCE 2        //Output to control resistence furnace actuator
+#define PIN_FAIL 3              //Output to detect general system failure
+#define PIN_TEMP_SENS A0        //Input to read teperature sensor (0-5V)
 
 /**
  * @brief Furnace controller class
