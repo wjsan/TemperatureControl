@@ -40,7 +40,7 @@
   <ItemGroup>
     <Reference Include="BqBusNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BqBusNet\BqBusNet\bin\Release\BqBusNet.dll</HintPath>
+      <HintPath>..\include\BqBusNet.1.0.0.0\lib\net\BqBusNet.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
@@ -251,7 +251,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\alarmConfigure.png" />
-    <Content Include="Packages\BqBusNet.dll" />
     <Content Include="Resources\Alarm10.wav" />
     <None Include="Resources\save.png" />
     <None Include="Resources\delete.png" />
