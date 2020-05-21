@@ -133,8 +133,8 @@
   <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="buttonDelete.Text" xml:space="preserve">
-    <value>Delete All   </value>
+  <data name="&gt;&gt;buttonSaveAlarms.Name" xml:space="preserve">
+    <value>buttonSaveAlarms</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -160,7 +160,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABY
-        LQAAAk1TRnQBSQFMAgEBAwEAAQgBAAEMAQABIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
+        LQAAAk1TRnQBSQFMAgEBAwEAAQgBAAEQAQABIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABIAMAAQEBAAEgBgABQP8A/wD/AP8AxQABAQEUARYBFAEbATEBOQErAUkBPwFQATIBaQFFAVwBNAF6
         AUYBXgE0AX0BQgFVATMBcAE3AUMBLwFWAR8BIgEdASsDAAEB/wBNAAIUARYBGwEgAUcBxAHNAQABPAL/
         AQABPAL/AQABPAL/AQABPAL/AQABPAL/AQABPAL/AQABPAL/AQABPAL/AQABPAL/AQABPAL/AQABPAL/
@@ -363,13 +363,10 @@
   <data name="lHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 70</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="buttonAckAll.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="lHome.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;lHome.Name" xml:space="preserve">
@@ -381,11 +378,11 @@
   <data name="buttonAckAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>42, 113</value>
   </data>
-  <data name="&gt;&gt;buttonSaveAlarms.Name" xml:space="preserve">
-    <value>buttonSaveAlarms</value>
-  </data>
   <data name="lHome.Text" xml:space="preserve">
     <value>Alarms</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>Delete All   </value>
   </data>
   <data name="buttonDelete.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -423,9 +420,6 @@
   <data name="&gt;&gt;buttonSaveAlarms.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 198</value>
-  </data>
   <data name="&gt;&gt;buttonAckAll.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -435,8 +429,8 @@
   <data name="buttonSaveAlarms.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="buttonSaveAlarms.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 43</value>
+  <data name="&gt;&gt;buttonAckAll.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="buttonSaveAlarms.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 11.25pt</value>
@@ -444,23 +438,26 @@
   <data name="&gt;&gt;imageListButtons.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;buttonAckAll.Name" xml:space="preserve">
+    <value>buttonAckAll</value>
+  </data>
   <data name="buttonDelete.ImageIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="buttonDelete.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 5, 5</value>
   </data>
-  <data name="&gt;&gt;buttonSaveAlarms.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="lHome.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="buttonDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;buttonSaveAlarms.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lHome.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -483,11 +480,17 @@
   <data name="buttonDelete.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
+  <data name="buttonSaveAlarms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 43</value>
+  </data>
   <data name="alarmSheet.Size" type="System.Drawing.Size, System.Drawing">
     <value>503, 417</value>
   </data>
   <data name="&gt;&gt;imageListButtons.Name" xml:space="preserve">
     <value>imageListButtons</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 43</value>
@@ -498,11 +501,8 @@
   <data name="buttonSaveAlarms.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;buttonAckAll.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;buttonAckAll.Name" xml:space="preserve">
-    <value>buttonAckAll</value>
+  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 198</value>
   </data>
   <data name="lHome.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 15.75pt, style=Bold</value>
@@ -534,9 +534,6 @@
   <data name="buttonAckAll.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 11.25pt</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>pt</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

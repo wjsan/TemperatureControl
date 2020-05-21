@@ -141,17 +141,14 @@
   <data name="&gt;&gt;toggleAutomatic.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="resource.Dock1" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="&gt;&gt;rounded1.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
   <data name="&gt;&gt;rounded1.Name" xml:space="preserve">
     <value>rounded1</value>
   </data>
-  <data name="metroLabel7.Text" xml:space="preserve">
-    <value>Alarm Low</value>
+  <data name="resource.AccessibleDescription3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="&gt;&gt;metroLabel4.Parent" xml:space="preserve">
     <value>$this</value>
@@ -159,8 +156,11 @@
   <data name="tbAlarmLow.Location" type="System.Drawing.Point, System.Drawing">
     <value>568, 545</value>
   </data>
-  <data name="tbHisteresis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>568, 437</value>
+  <data name="resource.TextImageRelation2" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="lHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 70</value>
   </data>
   <data name="&gt;&gt;tbAlarmLow.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -177,11 +177,14 @@
   <data name="&gt;&gt;metroLabel1.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="resource.AccessibleDescription1" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
   </data>
   <data name="tbSetPoint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="picFurnaceStatus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="picFurnaceStatus.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -205,23 +208,17 @@
         jbH8Bp2+PyGEEEIIIYQQQgghhBBCCCGEkFbo6voNqoWIkKtI6+QAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="lHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="metroLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="resource.BackgroundImage1" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;lHome.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="metroLabel3.Text" xml:space="preserve">
-    <value>Parameters</value>
+  <data name="tbHisteresis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 437</value>
   </data>
   <data name="metroLabel6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;rounded1.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="resource.FlatStyle3" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Standard</value>
@@ -229,32 +226,35 @@
   <data name="&gt;&gt;metroLabel7.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="temperatureIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 100</value>
+  </data>
   <data name="metroLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
-    <value>152, 1</value>
+  <data name="metroLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
-  <data name="&gt;&gt;metroLabel2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="metroLabel7.Text" xml:space="preserve">
+    <value>Alarm Low</value>
   </data>
   <data name="&gt;&gt;metroLabel2.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
+  <data name="resource.RightToLeft1" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
   <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
     <value>pictureBox2</value>
-  </data>
-  <data name="resource.Font2" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
   </data>
   <data name="resource.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="metroLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>480, 516</value>
+  <data name="tbAlarmHigh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
   </data>
-  <data name="statusFurnace.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 49</value>
+  <data name="resource.Anchor2" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
   <data name="metroLabel5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -262,8 +262,8 @@
   <data name="&gt;&gt;metroLabel3.Name" xml:space="preserve">
     <value>metroLabel3</value>
   </data>
-  <data name="metroLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="resource.ImageKey1" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -295,9 +295,6 @@
   <data name="rounded1.Location" type="System.Drawing.Point, System.Drawing">
     <value>286, 183</value>
   </data>
-  <data name="toggleFurnace.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
   <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
@@ -313,8 +310,8 @@
   <data name="&gt;&gt;temperatureIndicator.Name" xml:space="preserve">
     <value>temperatureIndicator</value>
   </data>
-  <data name="&gt;&gt;lHome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="picFurnaceStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;picFurnaceStatus.Name" xml:space="preserve">
     <value>picFurnaceStatus</value>
@@ -325,17 +322,14 @@
   <data name="resource.TextAlign2" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="tbAlarmHigh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 23</value>
+  <data name="resource.ImageKey2" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;picFurnaceStatus.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="metroLabel2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="metroLabel3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tbAlarmHigh.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="metroLabel5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -352,26 +346,23 @@
   <data name="resource.ImageKey" xml:space="preserve">
     <value />
   </data>
-  <data name="statusFurnace.Location" type="System.Drawing.Point, System.Drawing">
-    <value>480, 246</value>
-  </data>
   <data name="&gt;&gt;toggleFurnace.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="resource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
-  <data name="resource.Visible1" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="pictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;tbHisteresis.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="&gt;&gt;metroLabel2.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;metroLabel4.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;lHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metroLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 457</value>
   </data>
   <data name="temperatureIndicator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -379,14 +370,20 @@
   <data name="&gt;&gt;picFurnaceStatus.Type" xml:space="preserve">
     <value>TemperatureControl.FurnaceStatus, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="resource.BackgroundImageLayout3" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
+  <data name="statusFurnace.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 21</value>
+  <data name="picFurnaceStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toggleAutomatic.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="metroLabel2.Text" xml:space="preserve">
     <value>Histeresis</value>
@@ -394,20 +391,23 @@
   <data name="resource.Image2" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="tbSetPoint.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 23</value>
   </data>
   <data name="&gt;&gt;temperatureIndicator.Type" xml:space="preserve">
     <value>TemperatureControl.TemperatureIndicator, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;metroLabel5.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;picFurnaceStatus.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="metroLabel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>67, 457</value>
+  </data>
+  <data name="metroLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 516</value>
+  </data>
+  <data name="resource.Font1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="resource.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -415,8 +415,14 @@
   <data name="resource.AutoSizeMode1" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
   </data>
+  <data name="tbAlarmLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
+  </data>
   <data name="&gt;&gt;metroLabel3.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="&gt;&gt;statusFurnace.Type" xml:space="preserve">
+    <value>TemperatureControl.Status, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;tbHisteresis.Parent" xml:space="preserve">
     <value>$this</value>
@@ -424,14 +430,14 @@
   <data name="&gt;&gt;lHome.Name" xml:space="preserve">
     <value>lHome</value>
   </data>
+  <data name="resource.ImageIndex1" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
   <data name="tbSetPoint.Location" type="System.Drawing.Point, System.Drawing">
     <value>568, 408</value>
   </data>
-  <data name="&gt;&gt;tbAlarmLow.Name" xml:space="preserve">
-    <value>tbAlarmLow</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;lHome.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
   <data name="metroLabel1.Text" xml:space="preserve">
     <value>Set-Point</value>
@@ -448,6 +454,9 @@
   <data name="&gt;&gt;temperatureIndicator.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="rounded1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="picFurnaceStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 337</value>
   </data>
@@ -463,14 +472,11 @@
   <data name="resource.AutoSizeMode2" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
   </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 506</value>
   </data>
-  <data name="metroLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 1</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Home</value>
@@ -478,26 +484,23 @@
   <data name="&gt;&gt;metroLabel4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tbAlarmHigh.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="metroLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="resource.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="tbHisteresis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
+  </data>
   <data name="resource.BackgroundImageLayout2" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Tile</value>
-  </data>
-  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 1</value>
   </data>
   <data name="resource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="toggleAutomatic.LabelOff" xml:space="preserve">
-    <value>Automatic On</value>
+  <data name="&gt;&gt;statusFurnace.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="resource.AutoSizeMode3" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowOnly</value>
@@ -505,8 +508,8 @@
   <data name="metroLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="metroLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>490, 437</value>
+  <data name="resource.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Standard</value>
   </data>
   <data name="metroLabel6.Text" xml:space="preserve">
     <value>Alarm High</value>
@@ -514,14 +517,14 @@
   <data name="rounded1.Size" type="System.Drawing.Size, System.Drawing">
     <value>715, 631</value>
   </data>
-  <data name="toggleFurnace.LabelOn" xml:space="preserve">
-    <value>Furnace Off</value>
-  </data>
-  <data name="resource.AccessibleName3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="resource.Anchor3" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;toggleFurnace.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="tbAlarmLow.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -535,23 +538,14 @@
   <data name="toggleFurnace.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 123</value>
   </data>
-  <data name="resource.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="&gt;&gt;toggleAutomatic.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
   <data name="resource.ImageAlign2" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="picFurnaceStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="resource.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowOnly</value>
+  <data name="&gt;&gt;tbHisteresis.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -565,14 +559,14 @@
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="temperatureIndicator.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="lHome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="lHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
   </data>
   <data name="&gt;&gt;metroLabel5.Parent" xml:space="preserve">
     <value>$this</value>
@@ -580,17 +574,17 @@
   <data name="resource.RightToLeft3" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Inherit</value>
   </data>
-  <data name="resource.RightToLeft2" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="resource.Dock1" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="resource.RightToLeft1" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="&gt;&gt;rounded1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="metroLabel7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="metroLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="resource.Font3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -598,8 +592,14 @@
   <data name="&gt;&gt;toggleFurnace.Type" xml:space="preserve">
     <value>TemperatureControl.Toggle, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="resource.ImageIndex1" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="&gt;&gt;metroLabel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbAlarmLow.Name" xml:space="preserve">
+    <value>tbAlarmLow</value>
+  </data>
+  <data name="resource.AutoSize3" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="resource.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
@@ -610,11 +610,11 @@
   <data name="temperatureIndicator.Location" type="System.Drawing.Point, System.Drawing">
     <value>177, 350</value>
   </data>
-  <data name="resource.AccessibleDescription3" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="metroLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <data name="resource.ImageAlign1" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="tbHisteresis.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -637,9 +637,6 @@
   <data name="resource.AccessibleName1" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="tbAlarmHigh.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
   <data name="&gt;&gt;statusFurnace.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
@@ -649,11 +646,11 @@
   <data name="resource.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="metroLabel4.Text" xml:space="preserve">
-    <value>Furnace</value>
+  <data name="resource.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
   </data>
-  <data name="&gt;&gt;metroLabel7.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="pictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="lHome.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 15.75pt, style=Bold</value>
@@ -667,20 +664,14 @@
   <data name="resource.FlatStyle1" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Standard</value>
   </data>
-  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="resource.TextImageRelation3" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>Overlay</value>
-  </data>
-  <data name="&gt;&gt;toggleAutomatic.Type" xml:space="preserve">
-    <value>TemperatureControl.Toggle, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="resource.Dock3" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;lHome.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;toggleAutomatic.Name" xml:space="preserve">
+    <value>toggleAutomatic</value>
   </data>
   <data name="&gt;&gt;tbAlarmHigh.Parent" xml:space="preserve">
     <value>$this</value>
@@ -697,17 +688,17 @@
   <data name="toggleAutomatic.Size" type="System.Drawing.Size, System.Drawing">
     <value>264, 50</value>
   </data>
+  <data name="rounded1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
   <data name="lHome.Text" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="&gt;&gt;metroLabel6.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="&gt;&gt;toggleAutomatic.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="resource.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>Overlay</value>
-  </data>
-  <data name="&gt;&gt;statusFurnace.Type" xml:space="preserve">
-    <value>TemperatureControl.Status, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="toggleAutomatic.LabelOff" xml:space="preserve">
+    <value>Automatic On</value>
   </data>
   <data name="&gt;&gt;tbAlarmHigh.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
@@ -715,14 +706,14 @@
   <data name="&gt;&gt;tbSetPoint.Type" xml:space="preserve">
     <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="resource.TextAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
   <data name="resource.ImageIndex3" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="toggleAutomatic.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 67</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="metroLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -730,8 +721,8 @@
   <data name="tbSetPoint.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;picFurnaceStatus.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="statusFurnace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 246</value>
   </data>
   <data name="lHome.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -739,8 +730,8 @@
   <data name="&gt;&gt;metroLabel6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="toggleFurnace.LabelOff" xml:space="preserve">
-    <value>Furnace On</value>
+  <data name="temperatureIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="resource.AutoSize2" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -751,29 +742,26 @@
   <data name="resource.MaximumSize3" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Tile</value>
-  </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="resource.Size3" type="System.Drawing.Size, System.Drawing">
-    <value>21, 21</value>
+  <data name="lHome.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;metroLabel7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="resource.Image3" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="lHome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="rounded1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
+  <data name="toggleFurnace.LabelOn" xml:space="preserve">
+    <value>Furnace Off</value>
   </data>
-  <data name="metroLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="resource.Visible3" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -784,8 +772,8 @@
   <data name="tbAlarmLow.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="lHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>20, 20, 20, 20</value>
+  <data name="&gt;&gt;metroLabel5.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
   <data name="metroLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -793,11 +781,11 @@
   <data name="resource.BackgroundImage2" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;tbHisteresis.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  <data name="resource.AccessibleDescription1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="resource.AutoSize3" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="metroLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="metroLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -805,20 +793,20 @@
   <data name="lHome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 5, 5, 5</value>
   </data>
-  <data name="rounded1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="picFurnaceStatus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="metroLabel3.Text" xml:space="preserve">
+    <value>Parameters</value>
   </data>
   <data name="&gt;&gt;metroLabel1.Name" xml:space="preserve">
     <value>metroLabel1</value>
   </data>
+  <data name="toggleAutomatic.LabelOn" xml:space="preserve">
+    <value>Automatic Off</value>
+  </data>
   <data name="resource.Size2" type="System.Drawing.Size, System.Drawing">
     <value>21, 21</value>
   </data>
-  <data name="toggleAutomatic.LabelOn" xml:space="preserve">
-    <value>Automatic Off</value>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
   </data>
   <data name="&gt;&gt;metroLabel6.Name" xml:space="preserve">
     <value>metroLabel6</value>
@@ -826,72 +814,81 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="temperatureIndicator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 100</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
-  <data name="metroLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 457</value>
+  <data name="resource.RightToLeft2" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="&gt;&gt;tbAlarmLow.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="metroLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>152, 1</value>
   </data>
   <data name="resource.MaximumSize2" type="System.Drawing.Size, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="resource.MaximumSize1" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
+  <data name="resource.Font2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="&gt;&gt;statusFurnace.Parent" xml:space="preserve">
+  <data name="metroLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lHome.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="resource.Anchor1" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="resource.ImageKey2" xml:space="preserve">
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="resource.BackgroundImage3" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="rounded1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Right</value>
+  <data name="&gt;&gt;metroLabel6.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
   </data>
-  <data name="picFurnaceStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="resource.TabIndex2" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
     <value>21, 21</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>359, 397</value>
+  <data name="toggleFurnace.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="resource.TextImageRelation1" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>Overlay</value>
-  </data>
-  <data name="resource.Font3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  <data name="resource.AccessibleName3" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
+  </data>
+  <data name="rounded1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="metroLabel4.Text" xml:space="preserve">
+    <value>Furnace</value>
   </data>
   <data name="resource.FlatStyle2" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Standard</value>
   </data>
+  <data name="resource.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="statusFurnace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 397</value>
   </data>
-  <data name="resource.ImageKey3" xml:space="preserve">
-    <value />
+  <data name="statusFurnace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 49</value>
   </data>
   <data name="imageStatusList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADG
-        VwAAAk1TRnQBSQFMAgEBAwEAAbQBAwG8AQMBMAEAATABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAHA
+        VwAAAk1TRnQBSQFMAgEBAwEAAbQBAwHAAQMBMAEAATABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAHA
         AwABMAMAAQEBAAEgBgABkP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AGIAAwEBAgMkATYDQwF4AlQBVgGr
         AlkBXQHSA10B7QFBAUQBagH5AUEBRAFqAfkDXQHtAlgBXAHRAlQBVgGrA0MBdwMkATUDAQECiAADAQEC
         AyQBNgNDAXgBVAFWAVQBqwFZAV0BWQHSA10B7QFHAWoBQQH5AUcBagFBAfkDXQHtAVgBXAFYAdEBVAFW
@@ -1274,8 +1271,8 @@
   <data name="&gt;&gt;statusFurnace.Name" xml:space="preserve">
     <value>statusFurnace</value>
   </data>
-  <data name="&gt;&gt;toggleAutomatic.Name" xml:space="preserve">
-    <value>toggleAutomatic</value>
+  <data name="resource.TabIndex3" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1283,14 +1280,14 @@
   <data name="resource.AccessibleName2" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="resource.Anchor2" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left</value>
+  <data name="resource.BackgroundImageLayout3" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
   </data>
   <data name="metroLabel4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="tbAlarmLow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 23</value>
+  <data name="resource.ImageAlign1" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="statusFurnace.StatusTexts" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -1298,29 +1295,29 @@
         BAAAAA9HZW5lcmFsIEZhaWx1cmUL
 </value>
   </data>
-  <data name="toggleAutomatic.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;metroLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="resource.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="metroLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 437</value>
   </data>
-  <data name="lHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 70</value>
+  <data name="resource.Anchor1" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
   </data>
-  <data name="tbHisteresis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 23</value>
+  <data name="resource.MaximumSize1" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="metroLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>490, 408</value>
   </data>
-  <data name="&gt;&gt;toggleFurnace.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="tbAlarmHigh.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="resource.ImageAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="resource.ImageKey3" xml:space="preserve">
+    <value />
   </data>
-  <data name="resource.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="resource.TextImageRelation1" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
   </data>
   <data name="metroLabel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>481, 545</value>
@@ -1337,14 +1334,14 @@
   <data name="&gt;&gt;toggleFurnace.Name" xml:space="preserve">
     <value>toggleFurnace</value>
   </data>
-  <data name="statusFurnace.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="resource.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
   </data>
   <data name="metroLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="resource.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Standard</value>
+  <data name="metroLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="resource.Location2" type="System.Drawing.Point, System.Drawing">
     <value>152, 1</value>
@@ -1355,38 +1352,38 @@
   <data name="&gt;&gt;metroLabel6.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="resource.TextImageRelation2" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>Overlay</value>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="resource.Font1" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="&gt;&gt;metroLabel7.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="resource.ImageAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="resource.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
-  <data name="&gt;&gt;tbHisteresis.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 67</value>
   </data>
-  <data name="resource.ImageKey1" xml:space="preserve">
-    <value />
+  <data name="resource.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="toggleFurnace.LabelOff" xml:space="preserve">
+    <value>Furnace On</value>
   </data>
   <data name="metroLabel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 19</value>
   </data>
-  <data name="&gt;&gt;metroLabel5.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="resource.TextAlign3" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
-  <data name="resource.BackgroundImage3" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="&gt;&gt;toggleAutomatic.Type" xml:space="preserve">
+    <value>TemperatureControl.Toggle, TemperatureControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>pt</value>
   </metadata>
   <metadata name="imageStatusList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>14, 18</value>

@@ -36,6 +36,7 @@ namespace TemperatureControl
         public void LoadData()
         {
             var filePath = string.Format("{0}\\settings.json", appDirectory);
+
             if (File.Exists(filePath))
             {
                 string data = File.ReadAllText(filePath);
