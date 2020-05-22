@@ -14,7 +14,7 @@ This software is an SCADA Open Source application to monitor and control a tempe
 * Set-Point, Alarm-High, Alarm-Low and Histeresis parameters
 * Auto save parameters on exit
 * Real-Time high speed monitorament
-* Alarms Table with Save options
+* Alarms Table with Save option
 * Serial Communication Bettweem Device and Software
 * Multilingual suport (English, Portuguese)
 * Modern Beautiful Design
