@@ -40,8 +40,8 @@
             // 
             // lHome
             // 
-            resources.ApplyResources(this.lHome, "lHome");
             this.lHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            resources.ApplyResources(this.lHome, "lHome");
             this.lHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lHome.Name = "lHome";
             // 
@@ -55,8 +55,8 @@
             // 
             // buttonAckAll
             // 
-            resources.ApplyResources(this.buttonAckAll, "buttonAckAll");
             this.buttonAckAll.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.buttonAckAll, "buttonAckAll");
             this.buttonAckAll.ImageList = this.imageListButtons;
             this.buttonAckAll.Name = "buttonAckAll";
             this.buttonAckAll.Click += new System.EventHandler(this.buttonAckAll_Click);
@@ -75,8 +75,8 @@
             // 
             // buttonDelete
             // 
-            resources.ApplyResources(this.buttonDelete, "buttonDelete");
             this.buttonDelete.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.buttonDelete, "buttonDelete");
             this.buttonDelete.ImageList = this.imageListButtons;
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
@@ -87,8 +87,8 @@
             // 
             // buttonSaveAlarms
             // 
-            resources.ApplyResources(this.buttonSaveAlarms, "buttonSaveAlarms");
             this.buttonSaveAlarms.BackColor = System.Drawing.SystemColors.Control;
+            resources.ApplyResources(this.buttonSaveAlarms, "buttonSaveAlarms");
             this.buttonSaveAlarms.ImageList = this.imageListButtons;
             this.buttonSaveAlarms.Name = "buttonSaveAlarms";
             this.buttonSaveAlarms.Click += new System.EventHandler(this.buttonSaveAlarms_Click);
@@ -115,10 +115,10 @@
         #endregion
 
         private System.Windows.Forms.Label lHome;
-        public AlarmSheet alarmSheet;
         private System.Windows.Forms.Label buttonAckAll;
         private System.Windows.Forms.ImageList imageListButtons;
         private System.Windows.Forms.Label buttonDelete;
         private System.Windows.Forms.Label buttonSaveAlarms;
+        private AlarmSheet alarmSheet;
     }
 }

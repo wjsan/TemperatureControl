@@ -20,6 +20,11 @@ namespace TemperatureControl
             InitializeComponent();
         }
 
+        public void SetAlarm(string text)
+        {
+            alarmSheet.SetAlarm(text);
+        }
+
         private void alarmSheet_OnAlarm(object sender, EventArgs e)
         {
             player.PlayLooping();
