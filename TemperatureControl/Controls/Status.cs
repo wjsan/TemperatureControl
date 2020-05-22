@@ -18,19 +18,34 @@ namespace TemperatureControl
             set
             {
                 statusCode = value;
-                if(ImageList != null)
+                if (imageStatus.InvokeRequired)
                 {
-                    if(ImageList.Images.Count > statusCode)
+                    imageStatus.Invoke((MethodInvoker)delegate
                     {
-                        imageStatus.Image = ImageList.Images[statusCode];
-                    }
+                        RenderImage();
+                    });
                 }
-                if (StatusTexts != null)
+                else
                 {
-                    if (StatusTexts.Length > statusCode)
-                    {
-                        labelText.Text = StatusTexts[statusCode];
-                    }
+                    RenderImage();
+                }
+            }
+        }
+
+        private void RenderImage()
+        {
+            if (ImageList != null)
+            {
+                if (ImageList.Images.Count > statusCode)
+                {
+                    imageStatus.Image = ImageList.Images[statusCode];
+                }
+            }
+            if (StatusTexts != null)
+            {
+                if (StatusTexts.Length > statusCode)
+                {
+                    labelText.Text = StatusTexts[statusCode];
                 }
             }
         }

@@ -56,14 +56,11 @@ namespace TemperatureControl
                         ForeColor = ActiveColor;
                         if (!alarmDisplayed)
                         {
-                            if (this.InvokeRequired)
+                            if (labelData.InvokeRequired)
                             {
-                                this.Invoke((MethodInvoker)delegate
+                                labelData.Invoke((MethodInvoker)delegate
                                 {
-                                    labelData.Invoke((MethodInvoker)delegate
-                                    {
-                                        labelData.Text = DateTime.Now.ToString();
-                                    });
+                                    labelData.Text = DateTime.Now.ToString();
                                 });
                             }
                             else

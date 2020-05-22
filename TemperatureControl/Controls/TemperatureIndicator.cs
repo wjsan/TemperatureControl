@@ -46,8 +46,19 @@ namespace TemperatureControl
             set
             {
                 temp = value;
-                labelCurrent.Text = temp.ToString() + "°C";
-                calcTemp();
+                if (this.InvokeRequired)
+                {
+                    this.Invoke((MethodInvoker)delegate
+                    {
+                        labelCurrent.Text = temp.ToString() + "°C";
+                        calcTemp();
+                    });
+                }
+                else
+                {
+                    labelCurrent.Text = temp.ToString() + "°C";
+                    calcTemp();
+                }
             }
 
         }
