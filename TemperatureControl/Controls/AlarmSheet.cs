@@ -93,7 +93,7 @@ namespace TemperatureControl
             OnNormalize?.Invoke(this, new EventArgs());
         }
 
-        public void AddAlarm(string text)
+        public void SetAlarm(string text)
         {
             foreach (var control in Controls)
             {
