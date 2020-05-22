@@ -57,8 +57,8 @@
             // 
             // lHome
             // 
-            resources.ApplyResources(this.lHome, "lHome");
             this.lHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            resources.ApplyResources(this.lHome, "lHome");
             this.lHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lHome.Name = "lHome";
             // 
@@ -76,30 +76,13 @@
             // 
             // 
             // 
-            this.tbSetPoint.CustomButton.AccessibleDescription = resources.GetString("resource.AccessibleDescription");
-            this.tbSetPoint.CustomButton.AccessibleName = resources.GetString("resource.AccessibleName");
-            this.tbSetPoint.CustomButton.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor")));
-            this.tbSetPoint.CustomButton.AutoSize = ((bool)(resources.GetObject("resource.AutoSize")));
-            this.tbSetPoint.CustomButton.AutoSizeMode = ((System.Windows.Forms.AutoSizeMode)(resources.GetObject("resource.AutoSizeMode")));
-            this.tbSetPoint.CustomButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage")));
-            this.tbSetPoint.CustomButton.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout")));
-            this.tbSetPoint.CustomButton.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock")));
-            this.tbSetPoint.CustomButton.FlatStyle = ((System.Windows.Forms.FlatStyle)(resources.GetObject("resource.FlatStyle")));
-            this.tbSetPoint.CustomButton.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font")));
             this.tbSetPoint.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.tbSetPoint.CustomButton.ImageAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.ImageAlign")));
-            this.tbSetPoint.CustomButton.ImageIndex = ((int)(resources.GetObject("resource.ImageIndex")));
-            this.tbSetPoint.CustomButton.ImageKey = resources.GetString("resource.ImageKey");
             this.tbSetPoint.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode")));
             this.tbSetPoint.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location")));
-            this.tbSetPoint.CustomButton.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize")));
             this.tbSetPoint.CustomButton.Name = "";
-            this.tbSetPoint.CustomButton.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft")));
             this.tbSetPoint.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size")));
             this.tbSetPoint.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.tbSetPoint.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex")));
-            this.tbSetPoint.CustomButton.TextAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.TextAlign")));
-            this.tbSetPoint.CustomButton.TextImageRelation = ((System.Windows.Forms.TextImageRelation)(resources.GetObject("resource.TextImageRelation")));
             this.tbSetPoint.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.tbSetPoint.CustomButton.UseSelectable = true;
             this.tbSetPoint.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible")));
@@ -117,6 +100,7 @@
             this.tbSetPoint.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.tbSetPoint.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.tbSetPoint.TextChanged += new System.EventHandler(this.tbSetPoint_TextChanged);
+            this.tbSetPoint.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // metroLabel1
             // 
@@ -134,30 +118,13 @@
             // 
             // 
             // 
-            this.tbHisteresis.CustomButton.AccessibleDescription = resources.GetString("resource.AccessibleDescription1");
-            this.tbHisteresis.CustomButton.AccessibleName = resources.GetString("resource.AccessibleName1");
-            this.tbHisteresis.CustomButton.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor1")));
-            this.tbHisteresis.CustomButton.AutoSize = ((bool)(resources.GetObject("resource.AutoSize1")));
-            this.tbHisteresis.CustomButton.AutoSizeMode = ((System.Windows.Forms.AutoSizeMode)(resources.GetObject("resource.AutoSizeMode1")));
-            this.tbHisteresis.CustomButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage1")));
-            this.tbHisteresis.CustomButton.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout1")));
-            this.tbHisteresis.CustomButton.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock1")));
-            this.tbHisteresis.CustomButton.FlatStyle = ((System.Windows.Forms.FlatStyle)(resources.GetObject("resource.FlatStyle1")));
-            this.tbHisteresis.CustomButton.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font1")));
             this.tbHisteresis.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.tbHisteresis.CustomButton.ImageAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.ImageAlign1")));
-            this.tbHisteresis.CustomButton.ImageIndex = ((int)(resources.GetObject("resource.ImageIndex1")));
-            this.tbHisteresis.CustomButton.ImageKey = resources.GetString("resource.ImageKey1");
             this.tbHisteresis.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode1")));
             this.tbHisteresis.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location1")));
-            this.tbHisteresis.CustomButton.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize1")));
             this.tbHisteresis.CustomButton.Name = "";
-            this.tbHisteresis.CustomButton.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft1")));
             this.tbHisteresis.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size1")));
             this.tbHisteresis.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.tbHisteresis.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex1")));
-            this.tbHisteresis.CustomButton.TextAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.TextAlign1")));
-            this.tbHisteresis.CustomButton.TextImageRelation = ((System.Windows.Forms.TextImageRelation)(resources.GetObject("resource.TextImageRelation1")));
             this.tbHisteresis.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.tbHisteresis.CustomButton.UseSelectable = true;
             this.tbHisteresis.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible1")));
@@ -175,6 +142,7 @@
             this.tbHisteresis.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.tbHisteresis.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.tbHisteresis.TextChanged += new System.EventHandler(this.tbHisteresis_TextChanged);
+            this.tbHisteresis.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // metroLabel2
             // 
@@ -221,30 +189,13 @@
             // 
             // 
             // 
-            this.tbAlarmHigh.CustomButton.AccessibleDescription = resources.GetString("resource.AccessibleDescription2");
-            this.tbAlarmHigh.CustomButton.AccessibleName = resources.GetString("resource.AccessibleName2");
-            this.tbAlarmHigh.CustomButton.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor2")));
-            this.tbAlarmHigh.CustomButton.AutoSize = ((bool)(resources.GetObject("resource.AutoSize2")));
-            this.tbAlarmHigh.CustomButton.AutoSizeMode = ((System.Windows.Forms.AutoSizeMode)(resources.GetObject("resource.AutoSizeMode2")));
-            this.tbAlarmHigh.CustomButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage2")));
-            this.tbAlarmHigh.CustomButton.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout2")));
-            this.tbAlarmHigh.CustomButton.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock2")));
-            this.tbAlarmHigh.CustomButton.FlatStyle = ((System.Windows.Forms.FlatStyle)(resources.GetObject("resource.FlatStyle2")));
-            this.tbAlarmHigh.CustomButton.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font2")));
             this.tbAlarmHigh.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            this.tbAlarmHigh.CustomButton.ImageAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.ImageAlign2")));
-            this.tbAlarmHigh.CustomButton.ImageIndex = ((int)(resources.GetObject("resource.ImageIndex2")));
-            this.tbAlarmHigh.CustomButton.ImageKey = resources.GetString("resource.ImageKey2");
             this.tbAlarmHigh.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode2")));
             this.tbAlarmHigh.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location2")));
-            this.tbAlarmHigh.CustomButton.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize2")));
             this.tbAlarmHigh.CustomButton.Name = "";
-            this.tbAlarmHigh.CustomButton.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft2")));
             this.tbAlarmHigh.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size2")));
             this.tbAlarmHigh.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.tbAlarmHigh.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex2")));
-            this.tbAlarmHigh.CustomButton.TextAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.TextAlign2")));
-            this.tbAlarmHigh.CustomButton.TextImageRelation = ((System.Windows.Forms.TextImageRelation)(resources.GetObject("resource.TextImageRelation2")));
             this.tbAlarmHigh.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.tbAlarmHigh.CustomButton.UseSelectable = true;
             this.tbAlarmHigh.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible2")));
@@ -262,6 +213,7 @@
             this.tbAlarmHigh.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.tbAlarmHigh.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.tbAlarmHigh.TextChanged += new System.EventHandler(this.tbAlarmHigh_TextChanged);
+            this.tbAlarmHigh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // tbAlarmLow
             // 
@@ -269,30 +221,13 @@
             // 
             // 
             // 
-            this.tbAlarmLow.CustomButton.AccessibleDescription = resources.GetString("resource.AccessibleDescription3");
-            this.tbAlarmLow.CustomButton.AccessibleName = resources.GetString("resource.AccessibleName3");
-            this.tbAlarmLow.CustomButton.Anchor = ((System.Windows.Forms.AnchorStyles)(resources.GetObject("resource.Anchor3")));
-            this.tbAlarmLow.CustomButton.AutoSize = ((bool)(resources.GetObject("resource.AutoSize3")));
-            this.tbAlarmLow.CustomButton.AutoSizeMode = ((System.Windows.Forms.AutoSizeMode)(resources.GetObject("resource.AutoSizeMode3")));
-            this.tbAlarmLow.CustomButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resource.BackgroundImage3")));
-            this.tbAlarmLow.CustomButton.BackgroundImageLayout = ((System.Windows.Forms.ImageLayout)(resources.GetObject("resource.BackgroundImageLayout3")));
-            this.tbAlarmLow.CustomButton.Dock = ((System.Windows.Forms.DockStyle)(resources.GetObject("resource.Dock3")));
-            this.tbAlarmLow.CustomButton.FlatStyle = ((System.Windows.Forms.FlatStyle)(resources.GetObject("resource.FlatStyle3")));
-            this.tbAlarmLow.CustomButton.Font = ((System.Drawing.Font)(resources.GetObject("resource.Font3")));
             this.tbAlarmLow.CustomButton.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
-            this.tbAlarmLow.CustomButton.ImageAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.ImageAlign3")));
-            this.tbAlarmLow.CustomButton.ImageIndex = ((int)(resources.GetObject("resource.ImageIndex3")));
-            this.tbAlarmLow.CustomButton.ImageKey = resources.GetString("resource.ImageKey3");
             this.tbAlarmLow.CustomButton.ImeMode = ((System.Windows.Forms.ImeMode)(resources.GetObject("resource.ImeMode3")));
             this.tbAlarmLow.CustomButton.Location = ((System.Drawing.Point)(resources.GetObject("resource.Location3")));
-            this.tbAlarmLow.CustomButton.MaximumSize = ((System.Drawing.Size)(resources.GetObject("resource.MaximumSize3")));
             this.tbAlarmLow.CustomButton.Name = "";
-            this.tbAlarmLow.CustomButton.RightToLeft = ((System.Windows.Forms.RightToLeft)(resources.GetObject("resource.RightToLeft3")));
             this.tbAlarmLow.CustomButton.Size = ((System.Drawing.Size)(resources.GetObject("resource.Size3")));
             this.tbAlarmLow.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.tbAlarmLow.CustomButton.TabIndex = ((int)(resources.GetObject("resource.TabIndex3")));
-            this.tbAlarmLow.CustomButton.TextAlign = ((System.Drawing.ContentAlignment)(resources.GetObject("resource.TextAlign3")));
-            this.tbAlarmLow.CustomButton.TextImageRelation = ((System.Windows.Forms.TextImageRelation)(resources.GetObject("resource.TextImageRelation3")));
             this.tbAlarmLow.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.tbAlarmLow.CustomButton.UseSelectable = true;
             this.tbAlarmLow.CustomButton.Visible = ((bool)(resources.GetObject("resource.Visible3")));
@@ -310,6 +245,7 @@
             this.tbAlarmLow.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.tbAlarmLow.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             this.tbAlarmLow.TextChanged += new System.EventHandler(this.tbAlarmLow_TextChanged);
+            this.tbAlarmLow.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // metroLabel6
             // 
@@ -343,19 +279,19 @@
             // 
             // toggleFurnace
             // 
-            resources.ApplyResources(this.toggleFurnace, "toggleFurnace");
             this.toggleFurnace.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            resources.ApplyResources(this.toggleFurnace, "toggleFurnace");
             this.toggleFurnace.Name = "toggleFurnace";
             this.toggleFurnace.ToggleStatus = false;
-            this.toggleFurnace.OnToggle += new TemperatureControl.Toggle.ToggleEventHandler(this.toogleFurnace_OnToggle);
+            this.toggleFurnace.OnToggle += new TemperatureControl.Toggle.ToggleEventHandler(this.toggleFurnace_OnToggle);
             // 
             // toggleAutomatic
             // 
-            resources.ApplyResources(this.toggleAutomatic, "toggleAutomatic");
             this.toggleAutomatic.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            resources.ApplyResources(this.toggleAutomatic, "toggleAutomatic");
             this.toggleAutomatic.Name = "toggleAutomatic";
             this.toggleAutomatic.ToggleStatus = false;
-            this.toggleAutomatic.OnToggle += new TemperatureControl.Toggle.ToggleEventHandler(this.toogleAutomatic_OnToggle);
+            this.toggleAutomatic.OnToggle += new TemperatureControl.Toggle.ToggleEventHandler(this.toggleAutomatic_OnToggle);
             // 
             // statusFurnace
             // 
